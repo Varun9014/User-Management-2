@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="user-tbl")
-public class UserEntity {
+public class User{
 
 	
 	@Id
@@ -96,7 +96,7 @@ public class UserEntity {
 	public void setUpdatedDate(LocalDate updatedDate) {
 		this.updatedDate = updatedDate;
 	}
-	public UserEntity() {
+	public User() {
 		
 		// TODO Auto-generated constructor stub
 	}
